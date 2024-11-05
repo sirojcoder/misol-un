@@ -1,0 +1,77 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.fon{
+    background-image: url(./images/1111.jpg);
+width: 1240px;
+height: 880px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.card-tx{
+    color: white;
+    font-family: sans-serif;
+
+
+}
+body{
+    background-color: rgb(183, 246, 246);
+}
+.card-tx h2{
+    font-size: 42px;
+    padding-top: 22px;
+}
+.card-tx button{
+    border: none;
+    
+padding: 8px 84px;
+border-radius: 8px;
+color: rgb(253, 252, 252);
+background-color: rgb(123, 203, 200);
+}
+.card-tx p{
+    padding-top:  24px;
+    padding-bottom: 82px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 190px;
+    gap: 80px;
+}
+
+.card-info{
+    font-size: 44px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    gap: 200px;
+    
+    font-size: 16px;
+}
+.menu a{
+    color: white;
+    font-family: sans-serif;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
